@@ -11,17 +11,23 @@ The purpose of the project is to analyze Amazon reviews written by members of th
 
 
 *How many Vine reviews and non-Vine reviews were there?
+----
 There are 21 reviews in total vine program paid, and 7,689 reviews in total unpaid. So, we can see that less than 1% of are vine reviews program paid.
 
 *How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+---
 There are 11 5-star Reviews in total vine program paid, and 4,444 5-star Reviews unpaid. In this case, we can see that also less than the 1% are vine reviews paid. 
 
 *What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+--
         percentageSR_paid = (Total_StarReview_paid / Total_Reviews_paid) *100
         percentageSR_paid = (11/ 21) *100 = 52%
+        
 The percentage of Vine Reviews were 5-stars is 52%.
+
         percentageSR_unpaid = (Total_StarReview_unpaid / Total_Reviews_unpaid ) * 100
         percentageSR_unpaid= (4444/7689)* 100 = 58%
+        
 The percentage of non-Vine reviews were 5-stars is 58%.        
 
 
